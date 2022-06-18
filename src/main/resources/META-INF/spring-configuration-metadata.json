@@ -1,0 +1,72 @@
+{
+	"groups": [
+		{
+			"name": "server",
+			"type": "org.springframework.boot.autoconfigure.web.ServerProperties",
+			"sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties"
+		},
+		{
+			"name": "spring.jpa.hibernate",
+			"type": "org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate",
+			"sourceType": "org.springframework.boot.autoconfigure.orm.jpa.JpaProperties",
+			"sourceMethod": "getHibernate()"
+		}
+	],
+	"properties": [
+		{
+			"name": "server.port",
+			"type": "java.lang.Integer",
+			"sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties"
+		},
+		{
+			"name": "server.address",
+			"type": "java.net.InetAddress",
+			"sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties"
+		},
+		{
+			"name": "app.version",
+			"type": "java.lang.String",
+			"sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties"
+			
+		},
+        {
+			"name": "app.description",
+			"type": "java.lang.String",
+			"sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties"
+			
+		},
+        {
+			"name": "app.organization",
+			"type": "java.lang.String",
+			"sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties"
+			
+		},
+        {
+			"name": "app.context-path",
+			"type": "java.lang.String",
+			"sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties"
+			
+		},
+        {
+			"name": "app.name",
+			"type": "java.lang.String",
+			"sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties"
+			
+		},
+        {
+			"name": "datasource.sqlServer.jndi",
+			"type": "java.lang.String"
+			
+		},
+        {
+			"name": "datasource.sqlServer.persistenceUnit",
+			"type": "java.lang.String"
+			
+		},
+        {
+			"name": "api.log.geraLog",
+			"type": "java.lang.String"
+			
+		}
+	]
+}
